@@ -79,7 +79,7 @@ body {
 }
 
 p {
-	font-family: var(--merriweather-paragraphs);
+	font-family: var(--merriweather-paragraph);
 	font-size: var(--normal-font);
 	color: var(--honolulu-blue);
 }
@@ -88,4 +88,68 @@ a {
 	font-family: var(--junge-subtitle);
 	text-decoration: none;
 	color: var(--federal-blue);
+}
+
+/* Login.html */
+
+/* Image */
+
+.main-mav > a, img {
+	width: 100px;
+	position: absolute;
+}
+
+/* Form */
+
+input[type="email"], input[type="password"], input[type="email"], input[type="submit"], .input-group > a, label, button{
+	font-family: var(--merriweather-paragraph);
+	font-size: var(--normal-font);
+	color: var(--black);
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 300px;
+	border-radius: 14px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+	margin: 21px;
+	padding: 21px;
+}
+
+.input-group > h1 {
+	margin: 28px;
+	padding: 7px;
+}
+
+.input-group > *{
+	margin: 7px;
+}
+
+.input-group > button {
+	color: var(--white);
+	background-color: var(--honolulu-blue);
+	padding: 7px;
+	margin: 14px;
+	width: 100%;
+	border: none;
+	cursor: pointer;
+}
+
+::placeholder {
+	color: rgba(0, 0, 0, 0.1);
+}
+
+.input-group > a {
+	color: var(--honolulu-blue);
+	font-size: 14px;
 }
