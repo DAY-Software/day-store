@@ -9230,6 +9230,7 @@ button.bg-dark:focus {
   text-transform: uppercase !important;
 }
 
+
 .text-capitalize {
   text-transform: capitalize !important;
 }
@@ -9663,17 +9664,7 @@ small{
   transition: .3s .05s;
 }
 
-.product-item:hover .product-action a.btn:nth-child(3) {
-  opacity: 1;
-  margin-top: 0;
-  transition: .3s .1s;
-}
 
-.product-item:hover .product-action a.btn:nth-child(4) {
-  opacity: 1;
-  margin-top: 0;
-  transition: .3s .15s;
-}
 
 .product-item .product-img img {
   transition: .5s;
@@ -9684,7 +9675,7 @@ small{
 }
 
 .product-item .btn:hover {
-  color: #FFD333 !important;
+  color: var(--blue)
 }
 
 .table.table-borderless thead tr,
@@ -9704,7 +9695,7 @@ small{
   right: 30px;
   bottom: 30px;
   z-index: 11;
-  animation: action 1s infinite alternate;
+
 }
 
 @keyframes action {
